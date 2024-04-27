@@ -1,0 +1,207 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 0.1px 0.1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+nav, div ul li a {
+    align-items: center;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: #ff69b4; /* Color rosa normal */
+    text-decoration: none;
+    transition: color 0.5s, border-bottom-color 0.5s; /* Transición suave */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+nav ul li a:hover {
+    color: #ff1493; /* Color rosa más fuerte */
+    border-bottom: 2px solid #ff1493; /* Línea de abajo */
+}
+
+.gif {
+    
+}
+
+.gif img {
+    height: 130px;
+    margin-left: 0px;
+    margin-top: 15px;
+    text-align: left;
+    overflow: hidden;
+    padding: 0 auto;;
+}
+
+
+nav ul li a {
+    color: #ff69b4; /* Color rosa normal */
+    text-decoration: none;
+    transition: color 0.5s, border-bottom-color 0.5s; /* Transición suave */
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+nav ul li a:hover {
+    color: #ff1493; /* Color rosa más fuerte */
+    border-bottom: 2px solid #ff1493; /* Línea de abajo */
+}
+
+nav a {
+    font-weight: 600;
+    font-size: 24px;
+    padding-right: 10px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0 25px;
+}
+
+/* Estilos para la barra de búsqueda */
+.search-box {
+    display: none; /* Ocultar la barra de búsqueda por defecto */
+}
+
+/* Estilos para el icono de búsqueda */
+.search-icon {
+    cursor: pointer;
+}
+
+/* Estilos para el icono de búsqueda */
+.search-icon img {
+    width: 30px; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+    cursor: pointer;
+}
+
+
+.menu-toggle {
+    display: none; /* Ocultar el menú hamburguesa por defecto */
+}
+
+main {
+    background-color: #FFC0CB; /* Color rosa en formato hexadecimal */
+    margin: 0; /* Eliminar márgenes predeterminados */
+    padding: 0; /* Eliminar relleno predeterminado */
+}
+
+.logo {
+    font-size: 24px;
+}
+
+/* Estilos para el menú responsivo */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none; /* Ocultar el menú horizontal en pantallas pequeñas */
+        flex-direction: column; /* Mostrar elementos en una columna */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        padding: 10px;
+        border-bottom: 1px solid #666;
+    }
+
+    .menu-toggle {
+        display: block; /* Mostrar el menú hamburguesa */
+        font-size: 24px;
+        cursor: pointer;
+    }
+}
+
+.image {
+    max-width: 100%; /* Ancho máximo de la imagen igual al ancho del contenedor */
+    margin-left: 500px;/* Centrar horizontalmente la imagen */
+    overflow: hidden; /* Evita que la imagen sobresalga de los márgenes */
+    border-radius: black;
+}
+
+.image img {
+    width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: 300px;
+    width: 450px;
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0rem 0;
+    cursor: pointer;
+}
+
+.image img:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+.image h1 {
+    color: red;
+    font-family: Pacifico;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.bienvenida {
+    color: red;
+    font-family: Pacifico;
+    font-size: 40px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    line-height: 2.5;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("fonts/Pacifico-Regular.ttf") format("truetype");
+    font-weight: 500;
+}
+
+.slogan {
+    position: relative;
+    width: 50px; /* Ancho de contenedor */
+    height: 50px; /* Alto de contenedor */
+    border: 1px solid black; /* Borde para visualización */
+}
+
+.texto_movible {
+    position: absolute;
+    top: 50px; /* Distancia desde la parte superior */
+    left: 50px; /* Distancia desde la izquierda */
+}
+
+.tabal {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tabal, h1, h2 {
+    text-align: center;
+}
+
